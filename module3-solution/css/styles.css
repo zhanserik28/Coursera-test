@@ -1,0 +1,98 @@
+body {
+  font-family: "Recursive", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #e7e7e7;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+#nav-list {
+  background: white;
+}
+#nav-list a {
+  color: black;
+  border: 2px solid black;
+  border-bottom: 1px;
+  text-align: center;
+}
+
+#collapsable-nav ul li:nth-child(3) a {
+  border-bottom: 2px solid black;
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#menu-categories-title {
+  margin-bottom: 20px;
+}
+
+.name_of_menu {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+}
+.category-tile {
+  padding: 0 15px 15px 15px;
+  border: 2px solid black;
+  background-color: grey;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  color: black;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-bottom: 0px;
+    margin-top: 2px;
+    border: 0px;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+}
